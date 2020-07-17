@@ -42,7 +42,7 @@ WARNING!!! WARNING!!!
 // See Lecture 50, part 1
 for (var i = 0; i < names.length; i++) {
   var str = names[i]; 
-  var res = str.substring(0, 1);
+  var res = str.charAt(0);
   if (res === "J" || res.toLowerCase ==="j") {
     byeSpeaker.speak(names[i]);
   }
